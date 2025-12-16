@@ -1,0 +1,151 @@
+/* ============================================ */
+/* ########### responsive work #################*/
+/* ============================================ */
+
+@media (max-width: 567px) {
+  .header-content h1 {
+    font-size: 30px;
+  }
+  .header-content h5 {
+    font-size: 20px;
+  }
+  .contact-form .btn {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+
+  .about-text h3 {
+    font-size: 13px;
+  }
+  .about-text p {
+    font-size: 12px;
+  }
+  footer .container {
+    display: block;
+    text-align: center;
+  }
+  footer .icon i {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  footer .f_content {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .header-content h1 {
+    font-size: 30px;
+  }
+  .header-content h5 {
+    font-size: 20px;
+  }
+  nav ul li.logo {
+    flex: 1;
+  }
+  nav ul li.logo a {
+    font-size: 28px;
+  }
+  nav ul .items {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 50%;
+    width: 100%;
+    padding: 20px;
+    transform: translateX(-50%);
+    display: none;
+    box-shadow: 0 0 5px #0000003d;
+  }
+  nav ul .items li {
+    max-width: 530px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 1px solid #cca703;
+  }
+  .nav-scrolled ul .items {
+    border-top: 0.5px solid #464646;
+  }
+  nav ul .items li a::after,
+  nav ul .items li a.active::after {
+    background-color: transparent;
+  }
+
+  nav ul .items li a {
+    color: #464646;
+    padding: 15px 0px;
+    font-size: 20px;
+  }
+  nav ul li.icon {
+    display: block;
+  }
+  nav ul li.icon span {
+    font-size: 25px;
+    color: #fff;
+    transition: color 650ms;
+  }
+  nav ul li.icon span:hover {
+    color: #cca703;
+  }
+
+  /* about  */
+  .about-post {
+    margin: 0 50px;
+  }
+  .about-post::before {
+    left: -30px;
+    bottom: 240px;
+  }
+  .about-post .img {
+    width: 60px;
+    height: 60px;
+  }
+  .about-post .about-text {
+    width: 100%;
+    margin-left: 20px;
+    padding: 0 0 90px;
+    text-align: justify;
+  }
+  .about-post .txt-left {
+    padding-left: 15px;
+    margin: 0;
+  }
+  .about-post .txt-right {
+    margin-left: 0;
+    padding-left: 15px;
+    left: 0;
+  }
+
+  .about-post .img-left {
+    left: -60px;
+  }
+  .about-post .img-right {
+    right: -60px;
+  }
+  .team-member {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .header-content h1 {
+    font-size: 40px;
+  }
+  header-content h5 {
+    font-size: 25px;
+  }
+  header nav ul .items li a {
+    font-size: 15px;
+  }
+  .content h3 {
+    font-size: 18px;
+  }
+  .content p {
+    font-size: 14px;
+  }
+  .contact-form .form div {
+    width: 100%;
+  }
+}
